@@ -19,10 +19,6 @@ BulkCarbon bridges this gap by offering a simplified, educational, and functiona
 
 ---
 
-## Ì∂•Ô∏è Demo
-
-https://your-username.github.io/bulkcarbon
-
 ---
 
 ## Ì∑± System Architecture

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign Up - BulkCarbon</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="h-screen flex items-center justify-center bg-green-50">
+  <form class="bg-white shadow-lg rounded-lg p-8 w-full max-w-sm space-y-4" id="signupForm">
+    <h2 class="text-2xl font-bold text-green-700 text-center">Create Account</h2>
+    <input type="text" id="signupUsername" placeholder="Username" class="w-full border px-3 py-2 rounded" required>
+    <input type="password" id="signupPassword" placeholder="Password" class="w-full border px-3 py-2 rounded" required>
+    <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded w-full">Sign Up</button>
+    <p class="text-center text-sm mt-4">Already have an account? <a href="login.html" class="text-green-600">Login</a></p>
+  </form>
+
+  <script src="auth.js"></script>
+</body>
+</html>
